@@ -95,7 +95,7 @@
                     mipmapLevel:0
                       withBytes:imageBytes
                     bytesPerRow:4 * image.size.width];
-        free(imageBytes); // 需要释放资源
+        free(imageBytes); // 需要释放资源2
         imageBytes = NULL;
     }
 }
